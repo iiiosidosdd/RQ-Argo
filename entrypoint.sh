@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'argo'}
+WSPATH=${WSPATH:-'argo-'}
 UUID=${UUID:-'f30db57a-ed61-4512-9a28-f40f0ea05c0f'}
 
 generate_config() {
