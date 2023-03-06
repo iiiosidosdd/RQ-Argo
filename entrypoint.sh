@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'argo-'}
+WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'f30db57a-ed61-4512-9a28-f40f0ea05c0f'}
 
 generate_config() {
@@ -192,10 +192,10 @@ generate_config() {
             "tag":"WARP",
             "protocol":"wireguard",
             "settings":{
-                "secretKey":"cKE7LmCF61IhqqABGhvJ44jWXp8fKymcMAEVAzbDF2k=",
+                "secretKey":"EPVRtzjo5Vk9uCd5W2p41KKyhCyTtXLnEsSNbffww0I=",
                 "address":[
                     "172.16.0.2/32",
-                    "fd01:5ca1:ab1e:823e:e094:eb1c:ff87:1fab/128"
+                    "2606:4700:110:8aa9:cb45:7d29:79fe:4b89/128"
                 ],
                 "peers":[
                     {
